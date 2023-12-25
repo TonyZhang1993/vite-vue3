@@ -10,6 +10,7 @@
     "check": "vue-tsc --noEmit"
   },
   "dependencies": {
+    "mitt": "^3.0.1",
     "vue": "^3.3.11"
   },
   "devDependencies": {
