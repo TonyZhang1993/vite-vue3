@@ -1,7 +1,7 @@
 import { defineStore } from 'pinia'
 import { GlobalState } from '@/stores/interface'
 import piniaPersistConfig from '@/stores/helper/persist'
-import useDetailStore from '@/stores/modules/detail'
+import { useDetailStore } from '@/stores/modules/detail'
 
 export const useGlobalStore = defineStore({
   id: 'main-global',

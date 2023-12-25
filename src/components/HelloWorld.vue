@@ -3,12 +3,13 @@ import { ref } from 'vue'
 import mittBus from '@/utils/mittBus'
 import { useGlobalStore } from '@/stores/modules/global'
 import { storeToRefs } from 'pinia'
+import { getGraphTaskDetailsBatchApi } from '@/api/modules/test'
 
 defineProps<{ msg: string }>()
 
 const count = ref(0)
 
-const plus = () => {
+const plus = async () => {
   count.value++
   mittBus.emit('countPlus')
   globalStore.views++
@@ -20,6 +21,31 @@ const plus = () => {
     state.maximize = true
     state.primary = '#a7a7a7'
   })
+
+  await getGraphTaskDetailsBatchApi({
+    data: {
+      test: 'zjlab',
+      age: 5,
+      center: [1, 2, 3]
+    }
+  })
+
+  // await getTask({
+  //   test: 'zjlab',
+  //   age: 5,
+  //   center: [1, 2, 3]
+  // })
+
+  // await getMember()
+  // await getTask({
+  //   test: 'zjlab',
+  //   age: 5,
+  //   center: [1, 2, 3]
+  // })
+
+  // await addUser({
+  //   id: 'test'
+  // })
 }
 
 const globalStore = useGlobalStore()

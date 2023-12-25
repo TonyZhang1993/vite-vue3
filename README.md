@@ -26,6 +26,7 @@ Vite requires Node.js version 18+. 20+.
 -   [x] [mitt](https://github.com/developit/mitt) Tiny 200b functional event emitter / pubsub.
 -   [x] [Pinia](https://pinia.vuejs.org/) The Vue Store that you will enjoy using
 -   [] [axios](https://github.com/axios/axios) Promise based HTTP client for the browser and node.js
+-   [] [qs](https://github.com/ljharb/qs) A querystring parsing and stringifying library with some added security.[序列化和反序列化 URL 查询参数;将对象转化成字符串，并且可以支持嵌套对象、数组、日期等复杂数据类型。]
 -   [] [Vue Router](https://github.com/vuejs/router)
 -   [] [vueuse](https://github.com/vueuse/vueuse) Collection of essential Vue Composition Utilities for Vue 2 and 3
 -   [] [nanoid](https://github.com/ai/nanoid#readme) secure, URL-friendly, unique string ID generator for JavaScript

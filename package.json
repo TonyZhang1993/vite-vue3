@@ -10,13 +10,16 @@
     "check": "vue-tsc --noEmit"
   },
   "dependencies": {
+    "axios": "^1.6.2",
     "mitt": "^3.0.1",
     "pinia": "^2.1.7",
     "pinia-plugin-persistedstate": "^3.2.1",
+    "qs": "^6.11.2",
     "vue": "^3.3.11"
   },
   "devDependencies": {
     "@types/node": "^20.10.5",
+    "@types/qs": "^6.9.11",
     "@typescript-eslint/eslint-plugin": "^6.15.0",
     "@typescript-eslint/parser": "^6.15.0",
     "@vitejs/plugin-vue": "^4.5.2",

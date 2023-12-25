@@ -13,6 +13,7 @@ module.exports = {
   plugins: ['vue', '@typescript-eslint', 'prettier'],
   rules: {
     'no-debugger': 'warn', //提交时不允许有debugger
+    '@typescript-eslint/no-explicit-any': 'off', //  关闭any报警, 根据情况开启；正常开发建议移除
     'vue/multi-word-component-names': 'off' // 禁用vue文件强制多个单词命名
   }
 }
