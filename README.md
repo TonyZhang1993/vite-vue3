@@ -11,8 +11,6 @@ Vue template for starter using Vue3 + TypeScript + Vite + Pinia + Unocss 🚀
 
 `Vue3` + `TS` + `Vite` + `Eslint` +  `pinia` + `prettier` + `husky` + `lint-staged` + `less`
 
-`mitt`: 
-
 > Compatibility Note: <br>
 Vite requires Node.js version 18+. 20+. 
 
@@ -27,6 +25,8 @@ Vite requires Node.js version 18+. 20+.
 -   [x] [ESLint](https://eslint.org/) identifying and reporting on patterns found in ECMAScript/JavaScript code
 -   [x] [Prettier](https://prettier.io/) code formatter
 -   [x] [Airbnb Style Guide](https://github.com/airbnb/javascript)
+-   [] [husky](https://typicode.github.io/husky/) Husky improves your commits and more 🐶 woof!
+-   [] [lint-staged](https://github.com/lint-staged/lint-staged#readme) Run linters against staged git files and don't let 💩 slip into your code base!
 -   [] [Pinia](https://pinia.vuejs.org/) The Vue Store that you will enjoy using
 -   [] [axios](https://github.com/axios/axios) Promise based HTTP client for the browser and node.js
 -   [] [Vue Router](https://github.com/vuejs/router)
