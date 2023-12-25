@@ -24,7 +24,7 @@ Vite requires Node.js version 18+. 20+.
 -   [x] [husky](https://typicode.github.io/husky/) Husky improves your commits and more 🐶 woof!
 -   [x] [lint-staged](https://github.com/lint-staged/lint-staged#readme) Run linters against staged git files and don't let 💩 slip into your code base!
 -   [x] [mitt](https://github.com/developit/mitt) Tiny 200b functional event emitter / pubsub.
--   [] [Pinia](https://pinia.vuejs.org/) The Vue Store that you will enjoy using
+-   [x] [Pinia](https://pinia.vuejs.org/) The Vue Store that you will enjoy using
 -   [] [axios](https://github.com/axios/axios) Promise based HTTP client for the browser and node.js
 -   [] [Vue Router](https://github.com/vuejs/router)
 -   [] [vueuse](https://github.com/vueuse/vueuse) Collection of essential Vue Composition Utilities for Vue 2 and 3

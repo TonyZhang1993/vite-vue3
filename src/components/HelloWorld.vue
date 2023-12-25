@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 import mittBus from '@/utils/mittBus'
+import { useGlobalStore } from '@/stores/modules/global'
+import { storeToRefs } from 'pinia'
 
 defineProps<{ msg: string }>()
 
@@ -9,7 +11,19 @@ const count = ref(0)
 const plus = () => {
   count.value++
   mittBus.emit('countPlus')
+  globalStore.views++
+  globalStore.$patch({
+    maximize: true
+  })
+
+  globalStore.$patch((state) => {
+    state.maximize = true
+    state.primary = '#a7a7a7'
+  })
 }
+
+const globalStore = useGlobalStore()
+const { maximize, isCollapse, tabs, footer } = storeToRefs(globalStore)
 </script>
 
 <template>
@@ -17,6 +31,10 @@ const plus = () => {
 
   <div class="card">
     <button type="button" @click="plus">count is {{ count }}</button>
+    <p>maximize: {{ maximize }}</p>
+    <p>isCollapse: {{ isCollapse }}</p>
+    <p>tabs: {{ tabs }}</p>
+    <p>footer: {{ footer }}</p>
     <p>
       Edit
       <code>components/HelloWorld.vue</code> to test HMR
