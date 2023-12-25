@@ -25,12 +25,12 @@ Vite requires Node.js version 18+. 20+.
 -   [x] [ESLint](https://eslint.org/) identifying and reporting on patterns found in ECMAScript/JavaScript code
 -   [x] [Prettier](https://prettier.io/) code formatter
 -   [x] [Airbnb Style Guide](https://github.com/airbnb/javascript)
--   [] [husky](https://typicode.github.io/husky/) Husky improves your commits and more 🐶 woof!
--   [] [lint-staged](https://github.com/lint-staged/lint-staged#readme) Run linters against staged git files and don't let 💩 slip into your code base!
+-   [x] [husky](https://typicode.github.io/husky/) Husky improves your commits and more 🐶 woof!
+-   [x] [lint-staged](https://github.com/lint-staged/lint-staged#readme) Run linters against staged git files and don't let 💩 slip into your code base!
+-   [x] [mitt](https://github.com/developit/mitt) Tiny 200b functional event emitter / pubsub.
 -   [] [Pinia](https://pinia.vuejs.org/) The Vue Store that you will enjoy using
 -   [] [axios](https://github.com/axios/axios) Promise based HTTP client for the browser and node.js
 -   [] [Vue Router](https://github.com/vuejs/router)
--   [] [mitt](https://github.com/developit/mitt) Tiny 200b functional event emitter / pubsub.
 -   [] ⚙️ [Vitest](https://github.com/vitest-dev/vitest) Unit Testing with Vitest
 -   [] 🌈 [Ant Design Vue](https://github.com/vueComponent/ant-design-vue) An enterprise-class UI components based on Ant Design and Vue. 🐜
 -   [] [vueuse](https://github.com/vueuse/vueuse) Collection of essential Vue Composition Utilities for Vue 2 and 3
