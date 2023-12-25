@@ -6,14 +6,10 @@
 [![Pinia](https://img.shields.io/badge/Store-Pinia-f7d336)](https://pinia.vuejs.org)
 [![Less](https://img.shields.io/badge/CSS-Less-172f51)](https://lesscss.org/)
 
-Vue template for starter using Vue3 + TypeScript + Vite + Pinia + Unocss 🚀
-
-
-`Vue3` + `TS` + `Vite` + `Eslint` +  `pinia` + `prettier` + `husky` + `lint-staged` + `less`
+Vue template for starter using Vue3 + TS + Vite + Pinia + Less 🚀
 
 > Compatibility Note: <br>
 Vite requires Node.js version 18+. 20+. 
-
 
 
 ## Feature
@@ -31,10 +27,10 @@ Vite requires Node.js version 18+. 20+.
 -   [] [Pinia](https://pinia.vuejs.org/) The Vue Store that you will enjoy using
 -   [] [axios](https://github.com/axios/axios) Promise based HTTP client for the browser and node.js
 -   [] [Vue Router](https://github.com/vuejs/router)
--   [] ⚙️ [Vitest](https://github.com/vitest-dev/vitest) Unit Testing with Vitest
--   [] 🌈 [Ant Design Vue](https://github.com/vueComponent/ant-design-vue) An enterprise-class UI components based on Ant Design and Vue. 🐜
 -   [] [vueuse](https://github.com/vueuse/vueuse) Collection of essential Vue Composition Utilities for Vue 2 and 3
 -   [] [nanoid](https://github.com/ai/nanoid#readme) secure, URL-friendly, unique string ID generator for JavaScript
+-   [] ⚙️ [Vitest](https://github.com/vitest-dev/vitest) Unit Testing with Vitest
+-   [] 🌈 [Ant Design Vue](https://github.com/vueComponent/ant-design-vue) An enterprise-class UI components based on Ant Design and Vue. 🐜
 
 
 ## Start
